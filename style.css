@@ -1,0 +1,594 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(103, 130, 156);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 300px;
+    height: 200vh;
+    gap: 25px;
+    margin-top: 6em;
+    margin-left: 100px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.container,
+.container2 {
+    background-color: rgb(1, 39, 53);
+    width: 280px;
+    margin-left: 100px;
+    color: white;
+    padding: 2.5em 20px;
+    margin-top: 20px;
+    height: 741px;
+}
+
+/* .container{
+   
+    
+} */
+.shoeHaven {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-content: space-evenly;
+    margin-left: 10px;
+
+}
+
+#shoe-haven {
+    margin-left: 1em;
+    margin-top: -3px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#lock {
+    margin-left: 2em;
+}
+
+.search {
+    margin-top: 3em;
+}
+
+.search input {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(66, 86, 112);
+
+    border: none;
+    border-radius: 4px;
+}
+
+::placeholder {
+    color: rgb(236, 233, 233);
+    padding-left: 35px;
+    font-size: 14px;
+}
+
+.search i {
+    position: absolute;
+    padding: 8px 0 0 10px;
+    color: rgb(236, 233, 233);
+
+}
+
+.all {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+
+    width: 100%;
+}
+
+#all {
+    width: 45px;
+    background-color: rgb(54, 175, 223);
+    border-radius: 50px;
+    height: 25px;
+    color: whitesmoke;
+    border: none;
+    font-weight: 700;
+}
+
+#gym {
+    width: 50px;
+    background-color: rgb(66, 86, 112);
+
+    border-radius: 50px;
+    height: 25px;
+    color: whitesmoke;
+    border: none;
+    font-weight: 700;
+}
+
+#running {
+    width: 80px;
+    background-color: rgb(66, 86, 112);
+    border-radius: 50px;
+    height: 25px;
+    color: whitesmoke;
+    border: none;
+    font-weight: 700;
+}
+
+#formal {
+    width: 60px;
+    background-color: rgb(66, 86, 112);
+
+    border-radius: 50px;
+    height: 25px;
+    color: whitesmoke;
+    border: none;
+    font-weight: 700;
+}
+
+.shoes {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+
+}
+
+#nike-wildhorse,
+#nike-air,
+#nike-sneakers,
+#nike-wildhorse7 {
+    background-color: rgb(66, 86, 112);
+
+}
+
+#nike-air img {
+    padding-top: 20px;
+    /* padding-left: 10px; */
+}
+
+.shoes img {
+    width: 120px;
+    height: 100px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+#description {
+    font-size: 12px;
+    color: rgb(187, 181, 181);
+    padding-left: 5px;
+}
+
+.shoes p {
+    line-height: 25px;
+    padding-left: 5px;
+}
+
+.shoes h3 {
+    margin-top: 20px;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.icons {
+    margin-top: 40px;
+    padding: 10px 40px 0 30px;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+    background-color: rgb(66, 86, 112);
+
+    color: rgb(235, 231, 231);
+    border-radius: 50px;
+}
+
+.container2 {
+    margin-left: 50px;
+}
+
+.bag {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-content: space-evenly;
+    margin-left: 10px;
+
+}
+
+#bag {
+    margin-left: 2em;
+    margin-top: -3px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.nikez-shoes {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    row-gap: 15px;
+    column-gap: 10px;
+}
+
+.nikez-shoes img {
+    width: 120px;
+    height: 100px;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: rgb(66, 86, 112);
+}
+
+
+
+.nikez-shoes p {
+    line-height: 20px;
+    font-size: 12px;
+
+}
+
+#description2 {
+    font-size: 11px;
+    color: rgb(187, 181, 181);
+    padding-left: -5px;
+}
+
+.nikez-shoes i {
+    margin-top: 20px;
+    color: rgb(235, 231, 231);
+
+}
+
+#nike-wild7 img {
+    padding-top: 15px;
+}
+
+#heart {
+    margin-left: 10px;
+}
+
+hr {
+    margin-top: 60px;
+
+    border-color: rgb(122, 124, 126);
+    /* background-color: rgb(55, 78, 87); */
+}
+
+.container2 h3 {
+    margin-top: -1px;
+    font-size: 12px;
+
+}
+
+.total {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    line-height: 30px;
+}
+
+.total p {
+    font-size: 12px;
+}
+
+#summary {
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+#cost {
+    margin-left: 60px;
+}
+
+.checkout {
+    margin-top: 30px;
+    display: grid;
+    grid-template-areas:
+        'a b'
+        'c b';
+}
+
+#total {
+    grid-area: a;
+    /* font-weight: bold; */
+    font-size: 16px;
+}
+
+#total-cost {
+    grid-area: c;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+
+#checkout {
+    grid-area: b;
+    width: 90px;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(23, 180, 180);
+    border: none;
+    margin-left: 110px;
+}
+
+@media (min-width: 250px) and (max-width: 649px) {
+    body {
+
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+        margin-top: 10px;
+        margin-left: 100px;
+        font-family: sans-serif;
+        width: 700px;
+        height: 400vh;
+
+    }
+
+
+    .container {
+        width: 280px;
+        margin-left: -30px;
+        padding: 2.5em 20px;
+
+    }
+
+    .container2 {
+        width: 280px;
+        margin-left: -30px;
+        padding: 2.5em 20px;
+
+
+    }
+}
+
+@media (min-width: 650px) and (max-width: 1200px) {
+    body {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 50px;
+        margin-top: 10px;
+        margin-left: 100px;
+        font-family: sans-serif;
+        width: 1000px;
+        height: 400vh;
+    }
+
+    .container {
+        margin-left: 50px;
+        /* height: 800px; */
+
+    }
+
+    .container2 {
+        margin-left: -10px;
+
+
+    }
+
+    .container,
+    .container2 {
+        width: 380px;
+        margin-top: 20px;
+        height: 800px;
+
+    }
+
+    .all {
+        margin-top: 30px;
+        display: flex;
+        gap: 15px;
+
+        width: 100%;
+    }
+
+    #all {
+        width: 50px;
+        background-color: rgb(54, 175, 223);
+        border-radius: 50px;
+        height: 25px;
+        color: whitesmoke;
+        border: none;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    #gym {
+        width: 65px;
+        background-color: rgb(66, 86, 112);
+
+        border-radius: 50px;
+        height: 25px;
+        color: whitesmoke;
+        border: none;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    #running {
+        width: 100px;
+        background-color: rgb(66, 86, 112);
+        border-radius: 50px;
+        height: 25px;
+        color: whitesmoke;
+        border: none;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    #formal {
+        width: 80px;
+        background-color: rgb(66, 86, 112);
+        font-size: 16px;
+        border-radius: 50px;
+        height: 25px;
+        color: whitesmoke;
+        border: none;
+        font-weight: 700;
+    }
+
+    #shoe-haven {
+        margin-left: 1em;
+        margin-top: -3px;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    #description {
+        font-size: 14px;
+        color: rgb(187, 181, 181);
+        padding-left: 5px;
+    }
+
+    .shoes p {
+        line-height: 25px;
+        padding-left: 5px;
+        font-size: 14px;
+    }
+
+    .shoes h3 {
+        margin-top: 20px;
+        font-size: 18px;
+        padding-left: 5px;
+    }
+
+    .shoes img {
+        width: 150px;
+        height: 120px;
+        border-radius: 5px;
+        padding-left: 5px;
+    }
+
+    .container2 {
+        margin-left: 50px;
+    }
+
+    /* .bag {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        justify-content: space-evenly;
+        margin-left: 10px;
+    
+    } */
+
+    #bag {
+        margin-left: 3em;
+        margin-top: -3px;
+        font-size: 25px;
+        font-weight: 400px;
+    }
+
+    .nikez-shoes {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        row-gap: 15px;
+        column-gap: 15px;
+
+    }
+
+    .nikez-shoes img {
+        width: 170px;
+        height: 150px;
+        border-radius: 5px;
+        padding-left: 5px;
+        background-color: rgb(66, 86, 112);
+    }
+
+
+
+    .nikez-shoes p {
+        line-height: 30px;
+        font-size: 14px;
+
+    }
+
+    #description2 {
+        font-size: 14px;
+        color: rgb(187, 181, 181);
+        padding-left: -5px;
+    }
+
+    .nikez-shoes i {
+        margin-top: 30px;
+        color: rgb(235, 231, 231);
+
+    }
+
+    #nike-wild7 img {
+        padding-top: 15px;
+    }
+
+    #nike_wildhorse i {
+        margin-top: 45px;
+    }
+
+    #heart {
+        margin-left: 10px;
+    }
+
+     .container2 h3 {
+        margin-top: -1px;
+        font-size: 16px;
+
+    }
+
+    .total {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        line-height: 30px;
+    }
+
+    .total p {
+        font-size: 15px;
+    }
+
+    #summary {
+        margin-top: 40px;
+        font-size: 18px;
+    }
+
+    #cost {
+        margin-left: 60px;
+        font-size: 14px;
+    }
+
+    .checkout {
+        margin-top: 30px;
+        display: grid;
+        grid-template-areas:
+            'a b'
+            'c b';
+    }
+
+    #total {
+        grid-area: a;
+        /* font-weight: bold; */
+        font-size: 16px;
+    }
+
+    #total-cost {
+        grid-area: c;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 5px;
+
+    }
+
+    #checkout2 {
+        grid-area: b;
+        width: 100px;
+        height: 40px;
+        border-radius: 50px;
+        color: white;
+        background-color: rgb(23, 180, 180);
+        border: none;
+        margin-left: 200px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}
